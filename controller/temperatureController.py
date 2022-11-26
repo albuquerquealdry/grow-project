@@ -6,4 +6,4 @@ class temperatureController():
         return temperatureService.temperatureService.getTemperature()
     
     def timelineTemp():
-        return ("chegou tambem")
+        return temperatureService.temperatureService.timelineTemp()
