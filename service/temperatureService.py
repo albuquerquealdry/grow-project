@@ -10,7 +10,7 @@ class temperatureService():
         collection = db['temperature']
         return collection
 
-    def getTemperature():''
+    def getTemperature():
         c = temperatureService()
         databaseClient = c.get_database()
         cursor = list(databaseClient.find({}))
